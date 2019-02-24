@@ -1,0 +1,44 @@
+.TochSoft, .header, .main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header, .footer{
+  background: green;
+   border-radius: 10px;
+
+}
+.body, .diskOnRod, .disksOnQueue{
+  margin: 20px;
+  width: 810px;
+}
+.disksOnQueue {
+    display: flex;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+}
+.elementOfDisk{
+  margin-left: 10px;
+}
+.footer {
+    text-align: center;
+    padding: 25px;
+}
+
+.button{
+  margin: 10px 10px;
+  width: 70px;
+  height: 20px;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.input{
+  margin: 10px 10px;
+  width: 40px;
+  height: 20px;
+  border: none;
+  padding-left: 6px;
+  border-radius: 7px;
+}
